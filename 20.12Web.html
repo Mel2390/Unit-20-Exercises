@@ -1,0 +1,42 @@
+
+Part 1
+
+What is HTTP?
+HTTP (HyperText Transfer Protocol) is the foundation of data communication on the web. 
+
+What is a URL?
+A URL (Uniform Resource Locator) is the address used to access resources on the internet.
+
+What is DNS?
+DNS (Domain Name System) translates human-readable domain names (like www.example.com) into IP addresses (like 192.0.2.1) that computers use to identify each other on the network.
+
+What is a query string?
+A query string is the part of a URL that contains data to be passed to web applications.
+
+What are two HTTP verbs and how are they different?
+GET: This verb requests data from a specified resource. GET requests should only retrieve data and have no other effect on the resource.
+POST: This verb submits data to be processed to a specified resource. POST requests typically result in a change on the server, such as updating a database or submitting a form.
+
+What is an HTTP request?
+An HTTP request is a message sent by a client to a server to initiate an action. 
+
+What is an HTTP response?
+An HTTP response is a message sent by a server to a client in reply to an HTTP request.
+
+What is an HTTP header? Give a couple of examples of request and response headers you have seen.
+HTTP headers are key-value pairs in the request and response messages that convey additional information about the request or response. Examples include:
+
+Request Header: User-Agent (provides information about the client software), Accept (specifies the types of content the client can process).
+Response Header: Content-Type (indicates the media type of the resource), Set-Cookie (sends cookies from the server to the client).
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+
+DNS Lookup: The browser queries DNS to get the IP address of somesite.com.
+TCP Connection: The browser establishes a TCP connection to the server at the resolved IP address on port 80 .
+HTTP Request: The browser sends an HTTP GET request to the server for /some/page.html.
+Server Processing: The server processes the request, finds the requested resource, and prepares an HTTP response.
+HTTP Response: The server sends the HTTP response back to the browser, including the status code, headers, and the requested resource.
+Rendering: The browser processes the response, renders the HTML, and may make additional requests  to fully display the page.
+
+
+
